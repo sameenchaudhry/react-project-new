@@ -1,0 +1,35 @@
+
+.user-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  text-align: left;
+  color:white;
+}
+
+.user-card:hover {
+  transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(1, 147, 147, 0.562),
+              0 0 30px rgba(3, 130, 130, 0.422),
+              0 0 40px rgba(3, 141, 141, 0.4);
+}
+
+.user-avatar {
+  width: 100%;
+  height: auto;
+}
+.followers-following{
+    display: flex;
+    gap: 10px;
+    color: rgb(57, 209, 251);
+}
+.followers, .following {
+    color: white;
+}
+.user-name {
+  margin: 5px 0;
+  color: rgb(255, 255, 255);
+}
