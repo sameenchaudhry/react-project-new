@@ -15,7 +15,6 @@ const App = () => {
  
   const navigate = useNavigate();
 
-  // Get your GitHub access token from the .env file
   const accessToken = import.meta.env.VITE_GITHUB_ACCESS_TOKEN;
 
   useEffect(() => {
